@@ -1,0 +1,114 @@
+
+body {
+    //#37B5A5
+    background: rgb(24,20,96);
+    background: linear-gradient(90deg, rgba(24,20,96,1) 0%, rgba(76,36,128,1) 44%, rgba(2,68,82,1) 100%);
+}
+
+.container {
+    max-width: 715px;
+    padding: 0 15px;
+    margin: 20px auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.description {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #EDB749;
+}
+
+.table_wrapper{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 10px 10px 31px 6px rgba(0,0,0,0.75);
+    text-align: left;
+    background: #252F48;
+    padding: 10px 10px 0 10px;
+    max-height: 550px;
+    overflow: scroll;
+}
+
+.table_wrapper thead th {
+    border-top: none;
+    border-bottom: none;
+}
+
+.table_wrapper th {
+    margin: 0;
+    width: 16%;
+    text-align: center;
+    color: #EDB749;
+    font-size: 20px;
+    border-bottom: 1px solid #CAD4D6;
+    border-right: 1px solid #CAD4D6;
+    border-left: 1px solid #CAD4D6;
+    padding: 12px 17px;
+    cursor: default;
+    user-select: none;
+}
+
+.table_wrapper td {
+    margin: 0;
+    width: 15%;
+    text-align: center;
+    color: #CAD4D6;
+    border-bottom: 1px solid #CAD4D6;
+    border-right:1px solid #CAD4D6;
+    padding: 6px 0;
+    user-select: none;
+}
+
+.table_wrapper td:hover {
+    text-decoration: underline;
+    color: #EDB749;
+}
+
+td:first-child {
+    color: #EDB749;
+}
+
+td:first-child:hover {
+    color: #EDB749;
+    cursor: default;
+    text-decoration: none;!important;
+}
+
+tr:last-child td,
+tr:last-child th {
+    border-bottom: none;
+}
+
+td:last-child,
+th:last-child {
+    border-right: none;
+}
+
+th:first-child {
+    border-left: none;
+}
+thead {
+    padding-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.table_wrapper tbody {
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 46%;
+    max-height: 585px;
+}
+
+.normal-cell {
+    background-color: unset;
+}
+
+.highlighted-cell {
+    background-color: dodgerblue;
+}
